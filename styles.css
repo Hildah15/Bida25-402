@@ -622,9 +622,6 @@ nav a:hover {
 .category-card h4 {
     margin-top: 15px;
 }
-/* ================= CONTACT PAGE STYLES ONLY ================= */
-/* ✅ ADD ONLY THIS BLOCK TO THE BOTTOM OF YOUR EXISTING styles.css */
-/* (Nothing else will change – your Culture & Shop pages stay exactly the same) */
 
 .contact-form {
     max-width: 700px;
