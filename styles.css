@@ -705,3 +705,130 @@ nav a:hover {
     align-self: center;
     margin-top: 10px;
 }
+.footer {
+    background: #000000;
+    color: #ffffff;
+    padding: 50px 0 0;
+    margin-top: 60px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 35px;
+}
+
+.footer-col h3 {
+    color: #080808;
+    font-size: 1.3rem;
+    margin-bottom: 18px;
+}
+
+.footer-col p {
+    color: #121212;
+    font-size: 0.98rem;
+    line-height: 1.8;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col a {
+    color: #010000;
+    text-decoration: none;
+    font-size: 0.98rem;
+    transition: all 0.3s ease;
+}
+
+.footer-col a:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+/* Contact icons */
+.footer-col i {
+    margin-right: 8px;
+    color: #141313;
+}
+
+/* Social media links */
+.social-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    width: 42px;
+    height: 42px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a i {
+    margin: 0;
+    color: #000000;
+}
+
+.social-links a:hover {
+    background: #cccccc;
+    transform: translateY(-4px);
+}
+
+.social-links a:hover i {
+    color: #000000;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 35px;
+    padding: 18px 10px;
+    border-top: 1px solid #090909;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #070606;
+    font-size: 0.9rem;
+}
+
+/* Mobile responsive footer */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-col i {
+        margin-right: 5px;
+    }
+}
