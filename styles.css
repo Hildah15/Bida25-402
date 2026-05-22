@@ -720,13 +720,13 @@ nav a:hover {
 }
 
 .footer-col h3 {
-    color: #080808;
+    color: #ffffff;
     font-size: 1.3rem;
     margin-bottom: 18px;
 }
 
 .footer-col p {
-    color: #121212;
+    color: #e0e0e0;
     font-size: 0.98rem;
     line-height: 1.8;
 }
@@ -756,7 +756,7 @@ nav a:hover {
 /* Contact icons */
 .footer-col i {
     margin-right: 8px;
-    color: #141313;
+    color: #ffffff;
 }
 
 /* Social media links */
