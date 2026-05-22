@@ -800,13 +800,14 @@ nav a:hover {
 .footer-bottom {
     text-align: center;
     margin-top: 35px;
-    padding: 18px 10px;
-    border-top: 1px solid #090909;
+    padding: 20px 10px;
+    background-color:#111111;
+    border-top: 1px solid #222222;
 }
 
 .footer-bottom p {
     margin: 0;
-    color: #070606;
+    color: #b3b3b3;
     font-size: 0.9rem;
 }
 
