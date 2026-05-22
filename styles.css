@@ -721,13 +721,13 @@ nav a:hover {
 }
 
 .footer-col h3 {
-    color: #ffffff;
+    color: #080808;
     font-size: 1.3rem;
     margin-bottom: 18px;
 }
 
 .footer-col p {
-    color: #e0e0e0;
+    color: #121212;
     font-size: 0.98rem;
     line-height: 1.8;
 }
@@ -801,9 +801,9 @@ nav a:hover {
 .footer-bottom {
     text-align: center;
     margin-top: 35px;
-    padding: 20px 10px;
+    padding: 18px 10px;
     background-color:#111111;
-    border-top: 1px solid #222222;
+    
 }
 
 .footer-bottom p {
